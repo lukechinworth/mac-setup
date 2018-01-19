@@ -23,17 +23,24 @@
 
 ## Software
 * Homebrew
-    * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 * Oh my zsh
-    * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 * Nvm (node version manager)
-    * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash`
-* JDK (java development kit)
-    * http://www.oracle.com/technetwork/java/javase/downloads/index.html
-* Vagrant - download installer from web
+```sh
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+```
 * Ansible
-    * `sudo easy_install pip`
-    * `sudo pip install ansible`
+```sh
+sudo easy_install pip
+sudo pip install ansible
+```
+* [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (java development kit)
+* [Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## Files
 * Private/public key pair
@@ -43,4 +50,6 @@
 
 ## Settings
 * Use zsh as default shell
-    * `chsh -s $(which zsh)`
+```sh
+chsh -s $(which zsh)
+```
