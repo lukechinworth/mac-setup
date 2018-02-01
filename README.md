@@ -39,8 +39,13 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | b
 sudo easy_install pip
 sudo pip install ansible
 ```
+* MongoDB
+```sh
+brew install mongodb
+```
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (java development kit)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
+
 
 ## Files
 * Private/public key pair
