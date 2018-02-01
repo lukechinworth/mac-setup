@@ -26,6 +26,11 @@
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+* Homebrew services
+```sh
+brew services
+```
+should install `homebrew/services` tap. so you can run `brew services start <x>`
 * Oh my zsh
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -42,6 +47,9 @@ sudo pip install ansible
 * MongoDB
 ```sh
 brew install mongodb
+
+## start
+brew services start mongodb
 ```
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (java development kit)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
