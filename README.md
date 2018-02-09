@@ -51,6 +51,14 @@ brew install mongodb
 ## start
 brew services start mongodb
 ```
+* `rvm`
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+```
+* `bundler`
+```sh
+gem install bundler
+```
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (java development kit)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 
