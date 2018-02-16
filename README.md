@@ -74,3 +74,9 @@ gem install bundler
 ```sh
 chsh -s $(which zsh)
 ```
+* Make all hidden files visible in finder:
+```
+defaults write com.apple.finder AppleShowAllFiles -boolean true
+killall Finder
+```
+
