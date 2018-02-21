@@ -79,4 +79,7 @@ chsh -s $(which zsh)
 defaults write com.apple.finder AppleShowAllFiles -boolean true
 killall Finder
 ```
-
+* Save ssh key to keychain so you don't have to enter password after each login:
+```sh
+ssh-add -K ~/.ssh/id_rsa
+```
