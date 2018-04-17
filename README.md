@@ -20,6 +20,11 @@
 * Spotify
 * Tizen studio
 * virtualbox
+* Color Picker
+    * open `Script Editor`
+    * enter text `choose color`
+    * save as name: `Color Picker`, format: `Application`
+    * add [developer color picker](https://download.panic.com/picker/)
 
 ## Software
 * Homebrew
@@ -61,7 +66,6 @@ gem install bundler
 ```
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (java development kit)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
-
 
 ## Files
 * Private/public key pair
