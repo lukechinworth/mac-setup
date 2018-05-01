@@ -53,8 +53,14 @@ sudo pip install ansible
 ```sh
 brew install mongodb
 
-## start
+# start
 brew services start mongodb
+```
+* MySQL
+```sh
+brew install mysql
+# start
+brew services start mysql
 ```
 * `rvm`
 ```sh
