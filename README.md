@@ -93,3 +93,8 @@ killall Finder
 ```sh
 ssh-add -K ~/.ssh/id_rsa
 ```
+* Save screenshots to folder instead of desktop:
+```sh
+mkdir ~/Screenshots
+defaults write com.apple.screencapture location ~/Screenshots
+```
