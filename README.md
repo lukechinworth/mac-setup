@@ -44,6 +44,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```sh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
+Set default node version with
+```sh
+nvm alias default <version>
+```
 * Ansible
 ```sh
 sudo easy_install pip
