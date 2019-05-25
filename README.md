@@ -35,6 +35,10 @@ xcode-select --install
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+If homebrew is giving you permission errors, do:
+```sh
+sudo chown -R $(whoami) $(brew --prefix)/*
+```
 * Homebrew services
 ```sh
 brew services
