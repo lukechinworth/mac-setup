@@ -2,7 +2,7 @@
 
 ## Apps
 * Chrome
-    * Sign in to get bookmarks and data
+  * Sign in to get bookmarks and data
 * Firefox
 * iTerm
 * Spectacle
@@ -11,7 +11,7 @@
 * F.lux
 * Cyberduck
 * Postman
-* Sign in for configs
+  * Sign in for configs
 * Robo3T
 * Sequel pro
 * Vscode
@@ -27,6 +27,10 @@
     * add [developer color picker](https://download.panic.com/picker/)
 
 ## Software
+* Xcode command line tools
+```sh
+xcode-select --install
+```
 * Homebrew
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
