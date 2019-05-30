@@ -102,4 +102,10 @@ ssh-add -K ~/.ssh/id_rsa
 mkdir ~/Screenshots
 defaults write com.apple.screencapture location ~/Screenshots
 ```
-* Key repeat speed: System Preferences > Keyboard > Key Repeat: Fast, and Delay Until Repeat: Short
+* System Preferences
+    * Keyboard
+        * Key Repeat: Fast
+        * Delay Until Repeat: Short
+    * Spotlight
+        * Search results: Uncheck all except Applications, Documents, PDF Documents, and Spreadsheets
+        * Privacy: Add ~/Development, ~/Virtualbox\ VMs
