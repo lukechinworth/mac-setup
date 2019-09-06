@@ -15,6 +15,7 @@
 * Robo3T
 * Sequel pro
 * Vscode
+  * `cmd` + `P`, enter `> install`, select `Shell command: Install 'code' command in PATH`
 * Sourcetree
 * Skype
 * Spotify
