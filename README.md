@@ -31,6 +31,8 @@
   brew cask install squidman
   ```
 * [OmniDiskSweeper](https://www.omnigroup.com/more)
+* Xcode
+* Android Studio
 
 ## Software
 * Xcode command line tools
