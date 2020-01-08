@@ -26,6 +26,11 @@
     * enter text `choose color`
     * save as name: `Color Picker`, format: `Application`
     * add [developer color picker](https://download.panic.com/picker/)
+* SquidMan
+  ```sh
+  brew cask install squidman
+  ```
+* [OmniDiskSweeper](https://www.omnigroup.com/more)
 
 ## Software
 * Xcode command line tools
