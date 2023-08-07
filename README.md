@@ -54,12 +54,13 @@ ssh-add -K ~/.ssh/id_rsa
 mkdir ~/Screenshots
 defaults write com.apple.screencapture location ~/Screenshots
 ```
-* System Preferences
-  * Keyboard
-    * Key Repeat: Fast
-    * Delay Until Repeat: Short
-  * Spotlight
-    * Search results: Uncheck all except Applications, Documents, PDF Documents, and Spreadsheets
-    * Privacy: Add ~/Development, ~/Virtualbox\ VMs
-  * Displays
-    * Night Shift: Sunrise to sunset, and set color to warmest.
+
+## System Settings
+* Keyboard
+  * Key Repeat: Fast
+  * Delay Until Repeat: Short
+* Spotlight
+  * Search results: Uncheck all except Applications, Documents, PDF Documents, and Spreadsheets
+  * Privacy: Add ~/Development, ~/Virtualbox\ VMs
+* Displays
+  * Night Shift: Sunrise to sunset, and set color to warmest.
