@@ -2,61 +2,44 @@
 
 ## Files to save before wiping old mac
 
-* Private/public key pair
-* Hosts file
-* Sequel pro config
-* Transfer Authy account to another device.
+* Private/public key pair.
+* Transfer Authy account to new mac.
 
 ## Apps
 
 * Chrome
-  * Sign in to get bookmarks and data
-* iTerm
-* Spectacle
+* Warp (terminal)
+* Maccy (clipboard mgr)
+* Rectangle (window mgr)
+* Warp (Cloudflare VPN)
 * Caffeine
-* Flycut
-* F.lux
 * Postman
-  * Sign in for configs
-* Sequel pro
 * Visual Studio Code
   * `cmd` + `P`, enter `> install`, select `Shell command: Install 'code' command in PATH`
-* Spotify
-* virtualbox
-* Visual Studio for Mac
-* SquidMan: `brew cask install squidman`
-* OmniDiskSweeper: https://www.omnigroup.com/more
-* Xcode
-* Android Studio
-* Cakebrew
-* Authy desktop
-* Gas Mask
-* hide.me
-* Local (wp containers)
+* Authy desktop (2FA codes)
+* Local (WP containers)
 * Zoom
-* Loom
-* Paintbrush
+* Spotify
+
+## Optional
+
+* TablePlus (MySQL GUI)
+* OmniDiskSweeper - https://www.omnigroup.com/more
+* Xcode - https://developer.apple.com/download/applications/
+  * Download from apple downloads page, NOT the Mac App Store.
+* Android Studio
+* hide.me (VPN)
 
 ## Software
 
 * Xcode command line tools: `xcode-select --install`
-* Homebrew
+* Homebrew (pkg mgr) - https://github.com/Homebrew/brew/releases
   * If homebrew is giving you permission errors, do: `sudo chown -R $(whoami) $(brew --prefix)/*`
-* Homebrew services
-* Oh my zsh
-* powerlevel10k (instant prompt)
 * nvm (node version manager)
   * Set default node version with: `nvm alias default <version>`
-* Ansible
-* JDK (java development kit)
-* vagrant: https://www.vagrantup.com/downloads.html
 
 ## Settings
 
-* Use zsh as default shell
-```sh
-chsh -s $(which zsh)
-```
 * Make all hidden files visible in finder:
 ```
 defaults write com.apple.finder AppleShowAllFiles -boolean true
@@ -78,3 +61,5 @@ defaults write com.apple.screencapture location ~/Screenshots
   * Spotlight
     * Search results: Uncheck all except Applications, Documents, PDF Documents, and Spreadsheets
     * Privacy: Add ~/Development, ~/Virtualbox\ VMs
+  * Displays
+    * Night Shift: Sunrise to sunset, and set color to warmest.
