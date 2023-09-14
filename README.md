@@ -8,7 +8,6 @@
 ## Apps
 
 * Chrome
-* Warp (terminal)
 * Maccy (clipboard mgr)
 * Rectangle (window mgr)
 * Warp (Cloudflare VPN)
@@ -33,6 +32,7 @@
 ## Software
 
 * Xcode command line tools: `xcode-select --install`
+* Oh my zsh (shell cfg) - https://github.com/ohmyzsh/ohmyzsh
 * Homebrew (pkg mgr) - https://github.com/Homebrew/brew/releases
   * If homebrew is giving you permission errors, do: `sudo chown -R $(whoami) $(brew --prefix)/*`
 * nvm (node version manager)
