@@ -10,7 +10,6 @@
 * Chrome
 * Maccy (clipboard mgr)
 * Rectangle (window mgr)
-* Warp (Cloudflare VPN)
 * Caffeine
 * Postman
 * Visual Studio Code
