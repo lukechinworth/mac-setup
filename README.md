@@ -3,7 +3,7 @@
 ## Files to save before wiping old mac
 
 * Private/public key pair.
-* Transfer Authy account to new mac.
+* Transfer Passwords 2fa codes.
 
 ## Apps
 
@@ -14,7 +14,6 @@
 * Postman
 * Visual Studio Code
   * `cmd` + `P`, enter `> install`, select `Shell command: Install 'code' command in PATH`
-* Authy desktop (2FA codes)
 * Local (WP containers)
 * Zoom
 * Spotify
@@ -60,6 +59,6 @@ defaults write com.apple.screencapture location ~/Screenshots
   * Delay Until Repeat: Short
 * Spotlight
   * Search results: Uncheck all except Applications, Documents, PDF Documents, and Spreadsheets
-  * Privacy: Add ~/Development, ~/Virtualbox\ VMs
+  * Privacy: Add ~/Development
 * Displays
   * Night Shift: Sunrise to sunset, and set color to warmest.
